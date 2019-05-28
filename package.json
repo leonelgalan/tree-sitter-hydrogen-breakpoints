@@ -1,0 +1,28 @@
+{
+  "name": "tree-sitter-hydrogen-breakpoints",
+  "version": "0.0.1",
+  "description": "Tree-sitter grammar for Hydrogen Breakpoints",
+  "main": "index.js",
+  "scripts": {
+    "build": "tree-sitter generate && node-gyp build",
+    "test": "tree-sitter test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonelgalan/tree-sitter-hydrogen-breakpoints.git"
+  },
+  "keywords": [
+    "tree-sitter",
+    "grammar",
+    "hydrogen",
+    "breakpoints"
+  ],
+  "author": "Leonel Galán <leonelgalan@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "nan": "^2.14.0"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.14.7"
+  }
+}

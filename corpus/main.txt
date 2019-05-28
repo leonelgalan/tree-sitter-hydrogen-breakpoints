@@ -1,0 +1,10 @@
+==================
+Directives
+==================
+
+%% Foo
+
+---
+
+(breakpoint
+  (directive))
